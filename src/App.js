@@ -1,25 +1,52 @@
-import logo from './logo.svg';
+import { Box, useBreakpointValue } from "@chakra-ui/react";
 import './App.css';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Github from './Components/Github';
+import Home from './Components/Home';
+import Projects from './Components/Projects';
+import Skills from './Components/Skills';
+import Footer from './Components/Footer1';
+import Navbar from './Components/Navbar';
+// import { useEffect, useState } from "react";
 
 function App() {
+  const isSmallScreen = useBreakpointValue({ base: true, lg: false });
+  // const [isLoading, setIsLoading] = useState(true)
+
+  // useEffect(() => {
+  //   // Wait for 2 seconds and then set isLoading to false
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 1500);
+  // }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      <Box maxW="100vw" margin="auto">
+        <Navbar/>
+        <Box maxWidth={isSmallScreen? "90vw" : "80vw"} margin="auto">
+           
+            {/* <Center height={"100vh"} flex justifyContent="center" alignItems={"center"}> */}
+              {/* <Spinner thickness='7px'
+                    speed='0.65s'
+                    emptyColor='gray.200'
+                     color='purple.700'
+                     size='xl'/> */}
+              <Home />
+              <About />
+              <Skills />
+              <Projects />
+              <Github />
+               <Contact /> 
+            {/* </Center> */}
+          
+       </Box>
+       </Box>
+       <Footer/>
+    </>
+  )
+          }
+
 
 export default App;
