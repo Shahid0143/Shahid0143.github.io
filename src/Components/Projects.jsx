@@ -7,7 +7,7 @@ const Projects = () => {
     {
       id: 1,
 
-      name: "Gadget Galaxy",
+      name: "FlixHub",
       description:
         "A cutting-edge movies and TV show web application,offering users an immersive and user-friendly streaming experience.",
       image:
