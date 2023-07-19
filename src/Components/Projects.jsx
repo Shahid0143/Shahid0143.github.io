@@ -9,12 +9,12 @@ const Projects = () => {
 
       name: "Gadget Galaxy",
       description:
-        "Gadge Galaxy - It is a design-obsessed lifestyle accessories brand committed to making your everyday carry #lessordinary.",
+        "A cutting-edge movies and TV show web application,offering users an immersive and user-friendly streaming experience.",
       image:
-        "https://narender24681.github.io/Projects-Images/DailyObjects-Clone.png",
-      techStack: ["React", "Redux-Thunk", "Mongoose"],
-      github: "https://github.com/PoojaRathod5/native-order-609",
-      demo: "https://gadgetgalaxy.netlify.app/",
+        "https://user-images.githubusercontent.com/112757232/253561219-99142ef7-46d9-4af6-8f4b-110335cd81af.png",
+      techStack: ["React", "Redux-toolkit", "Sass", "JavaScript"],
+      github: "https://github.com/Shahid0143/Flixhub",
+      demo: "https://flixhub-qhs3.vercel.app/",
     },
     {
       id: 2,
@@ -24,20 +24,36 @@ const Projects = () => {
         "TelePharmacy 24x7 is a digital healtcare platform, which provides online doctors consultation, online pharmacy and diagnostic tests at home.",
       image:
         "https://user-images.githubusercontent.com/112754760/238128231-a627ba27-11ad-4921-b86e-a47a7e8c13f4.png",
-      techStack: ["Chakra UI", "React", "Redux-thunk", "Redux", "SCSS"],
+      techStack: [
+        "Chakra UI",
+        "React",
+        "Redux-thunk",
+        "Redux",
+        "SCSS",
+        "JavaScript",
+      ],
       github: "https://github.com/Shahid0143/tan-shock-2774",
       demo: "https://grand-conkies-b7c025.netlify.app/",
     },
     {
       id: 3,
 
-      name: "Infinity Jewellers",
+      name: "TradeHub",
       description:
-        "This is the clone of caratlane website which offers the best gold & diamond jewellery designs online",
-      image: "https://i.ibb.co/J3HBznH/Cartlane.png",
-      techStack: ["CSS", "React", "Redux-thunk", "Redux"],
-      github: "https://github.com/PoojaRathod5/new-bucket-3441",
-      demo: "https://celestial-bubble-1320-cjzn.vercel.app/",
+        "This web application allows users to sign up, log in, create a Demet account, stock analysis, maintain a portfolio, Read relevant Articles, Buy and sell stocks",
+      image:
+        "https://user-images.githubusercontent.com/112757232/254279261-79a879da-bb79-4d34-bbff-eb1b481b7097.png",
+      techStack: [
+        "CSS",
+        "React",
+        "Redux-thunk",
+        "Redux",
+        "JavaScript",
+        "mongoDB",
+        "Express.js",
+      ],
+      github: "https://github.com/Shahid0143/TradeHub",
+      demo: "https://tradehub.netlify.app/",
     },
     {
       id: 4,
@@ -48,20 +64,21 @@ const Projects = () => {
       image:
         "https://narender24681.github.io/Projects-Images/DailyObjects-Clone.png",
       techStack: ["HTML", "CSS", "Javascript"],
-      github: "https://github.com/Tarkeshwar18/royal-stew-1115",
+      github: "https://github.com/Shahid0143/royal-stew-111",
       demo: "https://regal-yeot-b37826.netlify.app/",
     },
 
     {
       id: 5,
 
-      name: "TimeCamp ",
+      name: "Columbia Clone",
       description:
-        "TimeCamp is centralized automated system that makes it easy for teams to work on all aspects of their programs and projects",
-      image: "https://i.ibb.co/jgCFshg/Screenshot-528.png",
-      techStack: ["HTML", "CSS", "Javascript"],
-      github: "https://github.com/MrVivek30/violet-support-6758",
-      demo: "https://timecampp.netlify.app/",
+        "DaliyObjects is a multi-national retail clothing chain. It specializes in fast fashion and sells clothing, accessories, shoes, beauty products, and perfumes",
+      image:
+        "https://user-images.githubusercontent.com/112757232/254287294-f3b1d167-8b28-409d-9589-22cf7cc9f761.png",
+      techStack: ["React", "CSS", "Javascript", "Chakra-ui"],
+      github: "https://github.com/Shahid0143/benevolent-boot-3435",
+      demo: "https://teal-mermaid-0fabd7.netlify.app/",
     },
   ];
 
