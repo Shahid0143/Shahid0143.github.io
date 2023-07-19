@@ -33,7 +33,7 @@ const Projects = () => {
         "JavaScript",
       ],
       github: "https://github.com/Shahid0143/tan-shock-2774",
-      demo: "https://grand-conkies-b7c025.netlify.app/",
+      demo: "https://tan-shock-2774.vercel.app/",
     },
     {
       id: 3,
@@ -73,7 +73,7 @@ const Projects = () => {
 
       name: "Columbia Clone",
       description:
-        "DaliyObjects is a multi-national retail clothing chain. It specializes in fast fashion and sells clothing, accessories, shoes, beauty products, and perfumes",
+        "Columbia is a multi-national retail clothing chain. It specializes in fast fashion and sells clothing, accessories, shoes, beauty products, and perfumes",
       image:
         "https://user-images.githubusercontent.com/112757232/254287294-f3b1d167-8b28-409d-9589-22cf7cc9f761.png",
       techStack: ["React", "CSS", "Javascript", "Chakra-ui"],
