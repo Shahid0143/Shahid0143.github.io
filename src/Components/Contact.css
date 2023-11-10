@@ -25,6 +25,7 @@
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+    margin-left: -20px;
 
 }
 
@@ -79,6 +80,7 @@ h1 {
         flex-direction: column;
         gap: 5rem;
         height: 40rem;
+      
     }
 
     .c-right .user {

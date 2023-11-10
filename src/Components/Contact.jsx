@@ -173,7 +173,7 @@ const Contact = () => {
             <Box
               className="contact-form"
               padding="10px"
-              width={{ base: "100%", md: "400px" }}
+              width={{ base: "100%" }}
               height="auto"
             >
               <Container style={{ paddingTop: "50px" }}>

@@ -10,11 +10,12 @@ const Github = () => {
       </Heading>
       <Box>
         <Box
-          width={["330px", "450px", "870px"]}
+          // width={["330px", "450px", "870px"]}
           margin="auto"
           marginBottom="30px"
         >
           <GitHubCalendar
+            width={"89%"}
             username="Shahid0143"
             className="react-activity-calendar"
           />
