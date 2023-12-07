@@ -12,7 +12,7 @@ import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 // import Sidebar from "./Sidebar";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Helmet } from "react-helmet";
-// import Shahid_Raza_Resume from "../assets/Shahid-Raza-Resume.pdf";
+import Shahid_Resume from "../assets/Shahid-Raza-Resume.pdf";
 import Sidebar from "./Sidebar";
 import "./Navbar.scss";
 
@@ -123,9 +123,9 @@ const Navbar = () => {
             >
               <a
                 id="resume-link-1"
-                // href={Shahid_Raza_Resume}
+                href={Shahid_Resume}
                 target="_blank"
-                download="Shahid_Raza_Resume.pdf"
+                download="Shahid_Resume.pdf"
               >
                 Resume
               </a>
