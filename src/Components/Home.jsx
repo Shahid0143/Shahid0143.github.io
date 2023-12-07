@@ -97,7 +97,7 @@ const Home = () => {
                   id="resume-link-2"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/11wnjvDKD9S9F9VEUBTK1eaFchXc-X1ti/view?usp=share_link"
+                      "https://drive.google.com/file/d/18suIp0ka7tKd0sHPKrg1DcQQ8_5nwarf/view?usp=sharing"
                     )
                   }
                   // href={Shahid_Raza_Resume}
