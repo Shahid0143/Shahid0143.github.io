@@ -15,7 +15,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
 
-// import Shahid_Raza_Resume from "../assets/Shahid-Raza-Resume.pdf";
+// import Shahid_Resume from "../assets/";
 
 const Home = () => {
   return (
@@ -102,7 +102,7 @@ const Home = () => {
                   }
                   // href={Shahid_Raza_Resume}
                   target={"_blank"}
-                  // download="Shahid_Raza_Resume.pdf"
+                  download="Shahid_Raza_Resume.pdf"
                 >
                   Resume
                 </Link>
