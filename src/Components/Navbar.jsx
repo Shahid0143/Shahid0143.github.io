@@ -125,7 +125,7 @@ const Navbar = () => {
                 id="resume-link-1"
                 // href={Shahid_Raza_Resume}
                 target="_blank"
-                download="Shahid_Raza_Resume.pdf"
+                download="Shahid-Raza-Resume.pdf"
               >
                 Resume
               </a>
