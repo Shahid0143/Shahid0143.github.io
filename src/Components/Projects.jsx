@@ -68,18 +68,18 @@ const Projects = () => {
       demo: "https://regal-yeot-b37826.netlify.app/",
     },
 
-    {
-      id: 5,
+    // {
+    //   id: 5,
 
-      name: "Columbia Clone",
-      description:
-        "Columbia is a multi-national retail clothing chain. It specializes in fast fashion and sells clothing, accessories, shoes, beauty products, and perfumes",
-      image:
-        "https://user-images.githubusercontent.com/112757232/254287294-f3b1d167-8b28-409d-9589-22cf7cc9f761.png",
-      techStack: ["React", "CSS", "Javascript", "Chakra-ui"],
-      github: "https://github.com/Shahid0143/benevolent-boot-3435",
-      demo: "https://teal-mermaid-0fabd7.netlify.app/",
-    },
+    //   name: "Columbia Clone",
+    //   description:
+    //     "Columbia is a multi-national retail clothing chain. It specializes in fast fashion and sells clothing, accessories, shoes, beauty products, and perfumes",
+    //   image:
+    //     "https://user-images.githubusercontent.com/112757232/254287294-f3b1d167-8b28-409d-9589-22cf7cc9f761.png",
+    //   techStack: ["React", "CSS", "Javascript", "Chakra-ui"],
+    //   github: "https://github.com/Shahid0143/benevolent-boot-3435",
+    //   demo: "https://teal-mermaid-0fabd7.netlify.app/",
+    // },
   ];
 
   return (

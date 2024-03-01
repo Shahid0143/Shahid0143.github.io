@@ -39,11 +39,8 @@ const Home = () => {
             rounded="md"
           >
             <Image
-              src="https://your-comics.com/media/image/img_news_37_2_lang52.png"
+              src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               borderRadius="1.2rem"
-              // height="100%"
-              // width="100%"
-              // object-fit="contain"
             />
           </Box>
           <Flex

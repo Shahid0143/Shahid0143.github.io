@@ -179,6 +179,7 @@ const About = () => {
             >
               <Image
                 className="home-img"
+                borderRadius="35px 0px  "
                 margin="auto"
                 src={myImage}
                 width={{ base: "80%", md: "100%" }}
